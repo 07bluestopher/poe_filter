@@ -16,7 +16,6 @@
 #define VAR_VALUES_TIER_4_SHOW
 
 
-
 apply (value:>=VAR_VALUES_TIER_1_VALUE) {
     VAR_VALUES_TIER_1_CUSTOMSTYLE 
 }
@@ -45,6 +44,19 @@ apply (name:VAR_VALUES_TIER_4_SHOW) {
     VAR_VALUES_TIER_4_CUSTOMSTYLE 
 }
 
+apply (value:>=VAR_VALUES_TIER_5_VALUE) {
+    VAR_VALUES_TIER_5_CUSTOMSTYLE 
+}
+apply (name:VAR_VALUES_TIER_5_SHOW) {
+    VAR_VALUES_TIER_5_CUSTOMSTYLE 
+}
+
+apply (value:>=VAR_VALUES_TIER_6_VALUE) {
+    VAR_VALUES_TIER_6_CUSTOMSTYLE 
+}
+apply (name:VAR_VALUES_TIER_6_SHOW) {
+    VAR_VALUES_TIER_6_CUSTOMSTYLE 
+}
 
 
 // endmodule:item_values

@@ -9,7 +9,7 @@
             "label": "Minimum value",
             "group": "Tier 1",
             "type": "number",
-            "default": 20001
+            "default": 20000
         },
         {
             "macroName": "VAR_VALUES_TIER_2_VALUE",
@@ -23,14 +23,28 @@
             "label": "Minimum value",
             "group": "Tier 3",
             "type": "number",
-            "default": 1000000
+            "default": 500000
         },
         {
             "macroName": "VAR_VALUES_TIER_4_VALUE",
             "label": "Minimum value",
             "group": "Tier 4",
             "type": "number",
+            "default": 1000000
+        },
+        {
+            "macroName": "VAR_VALUES_TIER_5_VALUE",
+            "label": "Minimum value",
+            "group": "Tier 5",
+            "type": "number",
             "default": 10000000
+        },
+        {
+            "macroName": "VAR_VALUES_TIER_6_VALUE",
+            "label": "Minimum value",
+            "group": "Tier 6",
+            "type": "number",
+            "default": 50000000
         },
         {
             "macroName": "VAR_VALUES_TIER_1_SHOW",
@@ -46,9 +60,11 @@
             "type": "style",
             "exampleItem": "Helm of neitiznot",
             "default": {
-                "textAccentColor": "#FF000000",
-                "textColor": "#FF66B2FF",
-                "menuTextColor": "#FFFF9600"
+                "textColor": "#000000",
+                "backgroundColor": "#d2b287",
+                "borderColor": "#000000",
+                "textAccent": 3,
+                "fontType": 1
             }
         },
         {
@@ -65,9 +81,12 @@
             "type": "style",
             "exampleItem": "Infinity boots",
             "default": {
-                "textAccentColor": "#FF000000",
-                "textColor": "#FF99FF99",
-                "menuTextColor": "#FFFF9600"
+                "textColor": "#000000",
+                "backgroundColor": "#d59f00",
+                "borderColor": "#000000",
+                "textAccent": 3,
+                "fontType": 1,
+                "showLootbeam": true
             }
         },
         {
@@ -84,11 +103,11 @@
             "type": "style",
             "exampleItem": "Abyssal whip",
             "default": {
-                "textAccentColor": "#FF000000",
-                "textColor": "#FFFF9600",
-                "menuTextColor": "#FFFF9600",
-                "borderColor": "#FFFF9600",
-                "backgroundColor": "#50FFFFFF",
+                "textColor": "#000000",
+                "backgroundColor": "#f99619",
+                "borderColor": "#000000",
+                "textAccent": 3,
+                "fontType": 1,
                 "showLootbeam": true
             }
         },
@@ -106,11 +125,55 @@
             "type": "style",
             "exampleItem": "Twisted bow",
             "default": {
-                "textAccentColor": "#FF000000",
-                "textColor": "#FFFF66B2",
-                "menuTextColor": "#FFFF66B2",
-                "borderColor": "#FFFF66B2",
-                "backgroundColor": "#50FFFFFF",
+                "textColor": "#000000",
+                "backgroundColor": "#f05a23",
+                "borderColor": "#000000",
+                "textAccent": 3,
+                "fontType": 2,
+                "showLootbeam": true
+            }
+        },
+        {
+            "macroName": "VAR_VALUES_TIER_5_SHOW",
+            "label": "Tier 5 force items shown",
+            "group": "Tier 5",
+            "type": "stringlist",
+            "default": []
+        },
+        {
+            "macroName": "VAR_VALUES_TIER_5_CUSTOMSTYLE",
+            "label": "Tier 5 custom style",
+            "group": "Tier 5",
+            "type": "style",
+            "exampleItem": "Twisated bow",
+            "default": {
+                "textColor": "#ffffff",
+                "backgroundColor": "#f05a23",
+                "borderColor": "#ffffff",
+                "textAccent": 3,
+                "fontType": 2,
+                "showLootbeam": true
+            }
+        },
+        {
+            "macroName": "VAR_VALUES_TIER_6_SHOW",
+            "label": "Tier 6 force items shown",
+            "group": "Tier 6",
+            "type": "stringlist",
+            "default": []
+        },
+        {
+            "macroName": "VAR_VALUES_TIER_6_CUSTOMSTYLE",
+            "label": "Tier 6 custom style",
+            "group": "Tier 6",
+            "type": "style",
+            "exampleItem": "Twisted bow",
+            "default": {
+                "textColor": "#ff0000",
+                "backgroundColor": "#ffffff",
+                "borderColor": "#ff0000",
+                "textAccent": 3,
+                "fontType": 3,
                 "showLootbeam": true
             }
         }
