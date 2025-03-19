@@ -1,0 +1,34 @@
+// module:global
+
+meta {
+  name = "Joe's Filter for Persnickety Players";
+}
+
+#define VAR_GLOBAL_HIDE []
+#define VAR_GLOBAL_SHOW []
+
+#define VAR_GLOBAL_CUSTOMSTYLE 
+
+#define VAR_GLOBAL_MINIMUM_VALUE
+
+
+
+apply (value:<VAR_GLOBAL_MINIMUM_VALUE) {
+    hidden = true;
+}
+
+apply (name:"*") {
+    VAR_GLOBAL_CUSTOMSTYLE 
+}
+
+apply (name:VAR_GLOBAL_HIDE) {
+    hidden = true;
+}
+
+apply (name:VAR_GLOBAL_SHOW) {
+    hidden = false;
+}
+
+
+
+// endmodule:global

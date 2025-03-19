@@ -1,0 +1,74 @@
+{
+    "name": "General Graardor",
+    "rs2fPath": "mod_general_graardor.rs2f",
+    "inputs": [
+        {
+            "type": "includeExcludeList",
+            "macroName": {
+                "includes": "VAR_GENERAL_GRAARDOR_UNIQUES_SHOW",
+                "excludes": "VAR_GENERAL_GRAARDOR_UNIQUES_HIDE"
+            },
+            "label": "General Graardor uniques",
+            "default": {
+                "includes": [
+                    "Bandos chestplate",
+                    "Bandos tassets",
+                    "Bandos boots",
+                    "Bandos hilt"
+                ],
+                "excludes": []
+            }
+        },
+        {
+            "type": "includeExcludeList",
+            "macroName": {
+                "includes": "VAR_GENERAL_GRAARDOR_COMMON_SHOW",
+                "excludes": "VAR_GENERAL_GRAARDOR_COMMON_HIDE"
+            },
+            "label": "General Graardor common drops",
+            "default": {
+                "includes": [
+                    "Coins",
+                    "Grimy snapdragon",
+                    "Adamantite ore",
+                    "Coal",
+                    "Magic logs"
+                ],
+                "excludes": [
+                    "Rune longsword",
+                    "Rune 2h sword",
+                    "Rune platebody",
+                    "Rune pickaxe",
+                    "Snapdragon seed",
+                    "Nature rune",
+                    "Cosmic rune",
+                    "Steel arrow",
+                    "Limpwurt root",
+                    "Steel dart"
+                ]
+            }
+        },
+        {
+            "type": "includeExcludeList",
+            "macroName": {
+                "includes": "VAR_GENERAL_GRAARDOR_SUPPLY_SHOW",
+                "excludes": "VAR_GENERAL_GRAARDOR_SUPPLY_HIDE"
+            },
+            "label": "General Graardor supply drops",
+            "default": {
+                "includes": [
+                    "Bones",
+                    "Big bones",
+                    "Super restore(4)",
+                    "Shark",
+                    "Chilli potato",
+                    "Kebab"
+                ],
+                "excludes": [
+                    "Combat potion(3)",
+                    "Super strength(3)"
+                ]
+            }
+        }
+    ]
+}
