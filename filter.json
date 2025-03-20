@@ -1,6 +1,6 @@
 {
     "type": "filter",
-    "name": "Ironman PoE flavored loot filter",
+    "name": "Bluestophers PoE flavored loot filter",
     "description": "A collection of loot filters for OSRS based on PoE styles",
     "modules": [
         {
