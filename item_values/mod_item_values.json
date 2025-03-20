@@ -126,11 +126,13 @@
             "exampleItem": "Twisted bow",
             "default": {
                 "textColor": "#000000",
+                "menuTextColor": "#fff05a23",
                 "backgroundColor": "#f05a23",
                 "borderColor": "#000000",
                 "textAccent": 3,
                 "fontType": 2,
-                "showLootbeam": true
+                "showLootbeam": true,
+                "sound": "btier.wav"
             }
         },
         {
@@ -148,11 +150,13 @@
             "exampleItem": "Twisated bow",
             "default": {
                 "textColor": "#ffffff",
+                "menuTextColor": "#f05a23",
                 "backgroundColor": "#f05a23",
                 "borderColor": "#ffffff",
                 "textAccent": 3,
                 "fontType": 2,
-                "showLootbeam": true
+                "showLootbeam": true,
+                "sound": "atier.wav"
             }
         },
         {
@@ -170,11 +174,13 @@
             "exampleItem": "Twisted bow",
             "default": {
                 "textColor": "#ff0000",
+                "menuTextColor": "#FF0000",
                 "backgroundColor": "#ffffff",
                 "borderColor": "#ff0000",
                 "textAccent": 3,
                 "fontType": 3,
-                "showLootbeam": true
+                "showLootbeam": true,
+                "sound": "stier.wav"
             }
         }
     ]
