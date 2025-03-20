@@ -1,7 +1,7 @@
 // module:global
 
 meta {
-  name = "Joe's Filter for Persnickety Players";
+  name = "Ironman PoE flavored loot filter";
 }
 
 #define VAR_GLOBAL_HIDE []
